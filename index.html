@@ -1,78 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Play | Bababooey</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE" /> 
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<META HTTP-EQUIV="Expires" CONTENT="-1" />
+<script language="JavaScript" type="text/javascript">
+var g_cacheBuster = "__rotmg_cb=1452042685";
+</script>
+
+<style>
+body { margin: 0; padding: 0; overflow: hidden;
+background-color: #000; color: #fff; }
+:link { color: #ccf; }
+:visited { color: #fcf; }
+.footer { margin: 16px auto; width: 416px; }
+.footer .studio { float: left; margin-right: 24px; }
+.footer .studio.kabam { float: left; margin-top: 7px; }
+.footer .studio.last { margin-right: 0px; }
+.KBPAY_IframeDialogCurtain {
+  position: absolute;
+  width: 2000px;
+  top:0;
+  left:0;
+  background-color:#000;
+  -moz-opacity:0.3;
+  opacity:.30;
+  filter:alpha(opacity=30);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+.KBPAY_IframeDialog {
+  position: absolute;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 11;
+// Minor version of Flash required
+var requiredMinorVersion = 2;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
 
 <body>
-    <h1>Index</h1>
-    <p>Index for the people who want to know where everything is hidden</p>
-
-    <table style="width:50%; text-align: left">
-    <tr>
-    <td>
-    </tr>
-    </td>
-<th><a href="https://github.com/MagicMaxcer/MagicMaxcer.github.io/blob/main/WebMain.swf">Webmain.swf</a></th>
-    <tr>
-    <td>
-    </tr>
-    </td>
-<script type="text/javascript">
-this.blankwin = function(){
-        var dlists = new Array();  
- dlists[0] = 'forum.ragezone.com'; 
-
-	var hostname = window.location.hostname;
-	hostname = hostname.replace("www.","").toLowerCase();
-	var a = document.getElementsByTagName("a");	
-	this.check = function(obj){
-		var href = obj.href.toLowerCase();
-                var dbopcount = 0;
-                if (href.indexOf("http://")!=-1)
-                {
-                   for (jdi = 0; jdi <= dlists.length; jdi++)
-                   {
-                      if (href.indexOf(dlists[jdi]) == -1)
-                      {
-                         //alert("NO MATCH " + dlists[jdi] + " " + href);
-                         dbopcount = dbopcount;  //Do nothing
-                      }
-                      else
-                      {
-                         //alert("match " + dlists[jdi] + " " + href);
-                         dbopcount++;
-                      }
-                   } 
-                   if (dbopcount > 0)
-                     return true; //If this link URL was an internal URL
-                   else  //there were no matches to any internal domain, so leave it external
-                     return false;
-                }
-                else
-                {
-                  return false;
-                }
-		//return (href.indexOf("http://")!=-1 && href.indexOf(hostname)==-1) ? false : true;				
-	};
-	this.set = function(obj){
-		obj.target = "_self";
-	};	
-	for (var i=0;i<a.length;i++){
-		if(check(a[i])) set(a[i]);
-	};		
-};
-
-// script initiates on page load. 
-
-this.addEvent = function(obj,type,fn){
-	if(obj.attachEvent){
-		obj['e'+type+fn] = fn;
-		obj[type+fn] = function(){obj['e'+type+fn](window.event );}
-		obj.attachEvent('on'+type, obj[type+fn]);
-	} else {
-		obj.addEventListener(type,fn,false);
-	};
-};
-addEvent(window,"load",blankwin);
-</script>
+<center>
+<object width="800" height="600" data="Webmain.swf"></object>
+</center>
 </body>
-
 </html>
